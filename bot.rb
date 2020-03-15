@@ -12,7 +12,7 @@ class Bot < DefaultBWListener
   end
 
   def onFrame
-    game.drawTextScreen(100, 100, 'hello world')
+    @game.drawTextScreen(100, 100, 'hello world')
   end
 end
 
