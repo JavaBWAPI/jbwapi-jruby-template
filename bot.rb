@@ -1,6 +1,6 @@
 $:.unshift Dir.getwd  # add current directory to $LOAD_PATH
 
-require 'lib/jbwapi-1.3.jar'
+require 'lib/jbwapi-1.4.jar'
 
 java_import 'bwapi.DefaultBWListener', 'bwapi.BWClient'
 
